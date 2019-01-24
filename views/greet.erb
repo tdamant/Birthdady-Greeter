@@ -1,0 +1,14 @@
+<head>
+  <style>
+    body {background-image: linear-gradient(red, yellow);
+      font-family: "Avant Garde";
+      font-size: 500%;
+      text-align: center;}
+  </style>
+</head>
+<h1> Hello <%=@name%></h1>
+<% if @days_until_birthday > 0 %>
+<div> It's <%=@days_until_birthday%> days until your birthday! </div>
+<% else %>
+<div> Happy Birthday!! </div>
+<% end %>
