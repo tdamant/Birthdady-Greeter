@@ -1,4 +1,3 @@
-
 feature 'birthday greeting' do
   scenario "user enters data 20 days before their birthday" do
     twenty_days_before

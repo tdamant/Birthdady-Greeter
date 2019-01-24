@@ -1,4 +1,3 @@
-
 describe Person do
   let(:printer) {double(:printer, print_message: nil)}
   let(:printer_class) {double(:printer_class, new: printer)}

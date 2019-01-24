@@ -5,11 +5,11 @@ class BirthdayPrinter
   end
 
   def happy_birthday
-    print "Happy Birthday!!"
+    "Happy Birthday!!"
   end
 
   def days_to_go(days)
-    days > 1 ? print("#{days} days until your birthday!") : print("#{days} day until your birthday!")
+    days > 1 ? "#{days} days until your birthday!" : "#{days} day until your birthday!"
   end
 
 end

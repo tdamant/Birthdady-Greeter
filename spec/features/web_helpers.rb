@@ -1,7 +1,3 @@
-require 'date'
-require 'capybara'
-require 'capybara/rspec'
-
 def fill_in_form(date, month)
   visit("/")
   fill_in 'name', with: "Tom"

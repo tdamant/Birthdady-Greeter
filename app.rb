@@ -18,7 +18,7 @@ class BirthdayGreeter < Sinatra::Base
 
   get '/greet' do
     @name = $person.name
-    @days_until_birthday = $person.days_until_birthday
+    @greeting = $person.birthday_greeting
     erb :greet
   end
 
