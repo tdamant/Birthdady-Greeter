@@ -45,6 +45,10 @@ def day_after_bday
   fill_in_form(yesterday.day, yesterday.month)
 end
 
+def invalid_date
+  fill_in_form(31, 2)
+end
+
 def days_to_next_month
   todays_date = Date.today
   next_month = Date.new(todays_date.year, (todays_date.month + 1), todays_date.day)

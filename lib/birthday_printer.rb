@@ -9,7 +9,7 @@ class BirthdayPrinter
   end
 
   def days_to_go(days)
-    days > 1 ? "#{days} days until your birthday!" : "#{days} day until your birthday!"
+    days > 1 ? "It's #{days} days until your birthday!" : "It's #{days} day until your birthday!"
   end
 
 end

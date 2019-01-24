@@ -16,6 +16,9 @@ class Person
     printer.print_message(days_until_birthday)
   end
 
+  def valid_dates?
+    Date.valid_date?(today.year,month, day)
+  end
 
   private
 
